@@ -7,79 +7,82 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body class="container-fluid">
+<body>
+<div class="container-fluid">
 
-  <header class="row"><!--ROW I-->
-    <div class="container">
-    <div class="row"><!--ROW I.1-->
+  <header class="row no-gutters"><!--ROW 1-->
+    <div class="contentBox">    
 
       <div class="col-xs-12 col-sm-5 col-md-4" style="border: 1px solid red;">
-        <a href="index.html" id="logo">Ryan Williams</a>
+        <a href="index.html" id="logo" class="text-center">Ryan Williams</a>
       </div>
 
       <nav class="col-xs-12 col-sm-7 col-md-8" style="border: 1px solid red;">
-      <div class="row"><!--ROW I.1.A-->
-      	  <div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-3" style="border: 1px solid red;">
-      	    <a href="index.html" class="navLink">About</a>
-      	  </div>
-      	  <div class="col-xs-4 col-sm-4 col-md-3" style="border: 1px solid red;">
-      	    <a href="portfolio.html" class="navLink">Portfolio</a>
-      	  </div>
-      	  <div class="col-xs-4 col-sm-4 col-md-3" style="border: 1px solid red;">
-      	    <a href="contact.html" class="navLink">Contact</a>
-      	  </div>
-      </div><!--/ROW I.1.A/-->
+        <div class="row"><!--ROW 1A-->
+      	    <div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-3" style="border: 1px solid red;">
+      	      <a href="index.html" class="navLink">About</a>
+      	    </div>
+      	    <div class="col-xs-4 col-sm-4 col-md-3" style="border: 1px solid red;">
+      	      <a href="portfolio.html" class="navLink">Portfolio</a>
+      	    </div>
+      	    <div class="col-xs-4 col-sm-4 col-md-3" style="border: 1px solid red;">
+      	      <a href="contact.html" class="navLink">Contact</a>
+        	</div><!--/ROW 1A-->
+        </div>
       </nav>
 
-    </div><!--/ROW I.1/-->
-    </div><!--/.container/-->
-  </header><!--/ROW I/-->
+    </div><!--/.contentBox-->    
+  </header><!--/ROW 1-->
 
-  <main class="row"><!--ROW II-->
-    <div class="container">
-    <div class="row"><!--ROW II.1-->
+  <main class="row no-gutters"><!--ROW II-->
+    <div class="contentBox">
+    <div class="row no-gutters"><!--ROW II.1-->
         <article class="col-xs-12 col-sm-8">
-          <header class="row white">
+          <div class="wrapper">
+          <header class="row no-gutters">
             <div class="col-xs-12">
               <h1 class="articleHeader">About</h1>
             </div>
           </header>
-          <section class="row white">
+          <section class="row no-gutters">
       	    <div class="col-xs-12">
       	      <img src="assets/images/cat.jpg" id="myPhoto" alt="Ryan Williams">
       	      <p>Marshmallow jelly soufflé pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll soufflé topping wafer croissant oat cake gummi bears.</p>
 
 		      <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice soufflé. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
       	    </div>
-          </section>	
+          </section>
+        </div><!--/.contentBox/-->	
         </article>
       <aside class="col-xs-12 col-sm-4">
-        <header class="row white">
+        <div class="wrapper">
+        <header class="row no-gutters">
           <div class="col-xs-12">
             <h2 class="asideHeader">Connect with Me</h2>
           </div>
         </header>
-        <section class="row white">
+        <section class="row">
           <div class="col-xs-12">
             <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
             <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
             <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
           </div>
         </section>
+      </div><!--/.container/-->
       </aside>
     </div><!--/ROW II.1/-->
     </div><!--/.container/-->
   </main><!--/ROW II/-->
 
-  <footer class="row"><!--ROW III-->
-    <div class="container">
-    <div class="row"><!--ROW III.1-->
+  <footer class="row no-gutters"><!--ROW III-->
+    <div class="contentBox">
+    <div class="row no-gutters"><!--ROW III.1-->
       <div class="col-xs-12">
       Copyright &copy; 2017 Ryan Williams
       </div>
     </div><!--/ROW III.1/-->
-    </div><!--/.container/-->
+    </div><!--/.contentBox-->
   </footer><!--/ROW III/-->
-
+</div>
 </body>
 </html>

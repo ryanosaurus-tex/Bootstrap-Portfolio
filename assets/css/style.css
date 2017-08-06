@@ -9,10 +9,9 @@
     			 "Times New Roman",
     			 serif;
     font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
+    font-weight: 700;    
     color: #fff;
-    text-align: center;
+    
     text-decoration: none;
     background: #4aaaa5;
 }
@@ -95,4 +94,19 @@ h1 {
 
 h2 {
 	font-size: 22px;
+}
+
+.wrapper {
+	background-color: #fff;
+	padding: 5%;
+	border: 1px solid #ddd;
+	margin: 30px 2%;
+	
+}
+
+.contentBox {
+	max-width: 960px;
+	margin: 0 auto;
+	height: 100%;
+
 }
